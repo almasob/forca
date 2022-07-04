@@ -1,0 +1,30 @@
+:root{
+	--bg-body: #ffddb3;
+	--bg-cabecalho: #66380060;
+	--bg-rodape: #663800 ;
+	--btn-iniciar: #008000;
+	--btn-adicionar: #8a2be2;
+	--btn-radius: 50px;
+	--sombra-titulo: #8a2be2;
+	--sombra-txt-botoao: 1px 1px 3px black;
+	--fonte-padrao:'Play', sans-serif;
+}
+
+body{
+	height: 100vh;
+	width: 100%;
+	font-family: var(--fonte-padrao);
+	background-color: var(--bg-body);
+}
+
+.principal{
+	height: 80%;
+}
+
+.invisivel{
+	display: none;
+}
+
+.sombra-txt-btns{
+	text-shadow: 1px 1px 3px black;
+}

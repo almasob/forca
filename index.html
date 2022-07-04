@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/cabecalho.css">
+		<link rel="stylesheet" type="text/css" href="css/inicial.css">
+		<link rel="stylesheet" type="text/css" href="css/adicionar.css">
+		<link rel="stylesheet" type="text/css" href="css/rodape.css">
+		<link rel="stylesheet" type="text/css" href="css/padrao.css">
+		<title>Jogo da Forca</title>
+	</head>
+	<body>
+		<header class="cabecalho">
+			<h1 class="cabecalho__titulo">Jogo da Forca</h1>
+		</header>
+		<main class="principal">
+			<div class="invisivel inicial ">
+				<div class="inicial__btns">
+					<button class="inicial__btns-aleatorio sombra-txt-btns">Adicionar palavras padrão</button>
+					<button class="inicial__btns-adicionar sombra-txt-btns">Adicionar palavras próprias</button>
+					<button class="inicial__btns-iniciar invisivel">Iniciar Jogo</button>
+				</div>
+			</div>
+			<div class="adicionar">
+				<div class="adicionar__texto">
+					<textarea class="adicionar__texto-area"></textarea>
+					<p class="adicionar__texto-legenda">*Máximo 25 letras<br>*Acento e maiúsculas/minúsculas nao considerados</p>
+				</div>
+				<div class="adicionar__btns">
+					<button class="adicionar__btns-adicionar sombra-txt-btns">Adicionar palavra</button>
+					<button class="adicionar__btns-voltar sombra-txt-btns">Voltar</button>
+				</div>
+			</div>
+		</main>
+		<footer class="rodape">
+			<p class="copyright"> &copy; Copyright Allan Machado Sobral - 2022</p>
+		</footer>
+	</body>
+</html>

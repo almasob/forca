@@ -1,0 +1,60 @@
+.adicionar{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.adicionar__texto{
+	width: 90%;
+	height: 70%;
+	margin: 0 auto;
+	padding-top: 1rem;
+}
+
+.adicionar__texto-area{
+	width: 100%;
+	height: 95%;
+	border: none;
+	padding: 0;
+	background-color: #fff4e6;
+	font-size: 1.4rem;
+
+}
+
+.adicionar__texto-legenda{
+	font-size:.6rem;
+}
+
+.adicionar__btns{
+	width: 90%;
+	display: flex;
+	height: 30%;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0 auto;
+
+}
+
+.adicionar__btns-adicionar{
+	background-color: var(--btn-adicionar);
+	border-color: white;
+	border-radius: var(--btn-radius);
+	color: white;
+	font-family: var(--fonte-padrao);
+	font-weight: 700;
+	height: 50%;
+	width: 45%;
+}
+
+.adicionar__btns-voltar{
+	background-color: var(--btn-iniciar);
+	border-color: white;
+	border-radius: var(--btn-radius);
+	color: white;
+	font-family: var(--fonte-padrao);
+	font-weight: 700;
+	height: 50%;
+	width: 45%;
+}

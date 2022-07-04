@@ -1,0 +1,44 @@
+.inicial{
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.inicial__btns{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	row-gap: 1rem;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.inicial__btns-aleatorio{
+	background-color: var(--btn-iniciar);
+	border-color: white;
+	border-radius: var(--btn-radius);
+	color: white;
+	font-family: var(--fonte-padrao);
+	font-weight: 700;
+	height: 20%;
+	width: 50%;
+	
+}
+
+.inicial__btns-adicionar{
+	background-color: var(--btn-adicionar);
+	border-color: white;
+	border-radius: var(--btn-radius);
+	color: white;
+	font-family: var(--fonte-padrao);
+	font-weight: 700;
+	height: 15%;
+	width: 50%;
+	
+}
+
+.inicial__btns-iniciar{
+
+}
+
