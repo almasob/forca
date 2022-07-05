@@ -39,6 +39,13 @@
 }
 
 .inicial__btns-iniciar{
-
+	background-color: #0066ff;
+	border-color: white;
+	border-radius: var(--btn-radius);
+	color: white;
+	font-family: var(--fonte-padrao);
+	font-weight: 700;
+	height: 25%;
+	width: 50%;
 }
 

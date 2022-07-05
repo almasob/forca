@@ -19,14 +19,14 @@
 	height: 80%;
 }
 
-.forca-base,.forca-cabeca,.forca-corpo,
+/*.forca-base,.forca-cabeca,.forca-corpo,
 .forca-bracoE,.forca-bracoD,
 .forca-pernaE,.forca-pernaD{
 	height: 100%;
 	display: flex;
 	justify-content: center;
 	box-sizing: border-box;
-}
+}*/
 
 .jogo__forca-forca img{
 	width: 100%;
@@ -48,9 +48,12 @@
 
 .jogo__forca-letras{
 	border-bottom: 2px solid black;
-	font-size: 1.5rem;
+	font-size: 1.2rem;
 	display: flex;
 	align-items: flex-end;
+	justify-content: center;
+	width: 5%;
+	flex-wrap: wrap;
 }
 
 
