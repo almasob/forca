@@ -16,9 +16,15 @@ btnAdicionar.addEventListener("click",function(){
 })
 
 btnIniciar.addEventListener("click",function(){
-	ficaInvisivel(divInicial);
-	tiraInvisivel(divJogo);
-	sortearPalavra();
+
+
+	if(palavrasJogo.length > 0){
+		ficaInvisivel(divInicial);
+		tiraInvisivel(divJogo);
+		sortearPalavra();
+	}	else {
+		alert("Adicione palavras para iniciar!")
+		}
 
 })
 

@@ -18,6 +18,8 @@ novoJogo.addEventListener("click",function(){
 })
 
 desistir.addEventListener("click",function(){ 
+	ficaInvisivel(divJogo);
+	tiraInvisivel(divInicial);
 })
 
 
