@@ -20,7 +20,7 @@
 			<h1 class="cabecalho__titulo">Jogo da Forca</h1>
 		</header>
 		<main class="principal">
-			<div class="invisivel inicial ">
+			<div class="inicial ">
 				<div class="inicial__btns">
 					<button class="inicial__btns-aleatorio sombra-txt-btns">Adicionar palavras padrão</button>
 					<button class="inicial__btns-adicionar sombra-txt-btns">Adicionar palavras próprias</button>
@@ -29,26 +29,46 @@
 			</div>
 			<div class="adicionar invisivel">
 				<div class="adicionar__texto">
-					<textarea class="adicionar__texto-area" placeholder="Digite aqui..." maxlength="25" autofocus></textarea>
-					<p class="adicionar__texto-legenda">*Máximo 25 letras<br>*Acento e maiúsculas/minúsculas nao considerados</p>
+					<textarea class="adicionar__texto-area" placeholder="Digite aqui..." maxlength="18" autofocus></textarea>
+					<p class="adicionar__texto-legenda">*Máximo 18 letras<br>*Acento e maiúsculas/minúsculas nao considerados</p>
 				</div>
 				<div class="adicionar__btns">
 					<button class="adicionar__btns-adicionar sombra-txt-btns">Adicionar palavra</button>
 					<button class="adicionar__btns-voltar sombra-txt-btns">Voltar</button>
 				</div>
 			</div>
-			<div class="jogo">
+			<div class="jogo invisivel">
 				<div class="jogo__forca">
 					<div class="jogo__forca-forca">
-						<div class="forca-base"><img src="imagens/forca.png"></div>
-						<div class="forca-cabeca invisivel"></div>
-						<div class="forca-corpo invisivel"></div>
-						<div class="forca-bracoE invisivel"></div>
-						<div class="forca-bracoD invisivel"></div>
-						<div class="forca-pernaE invisivel"></div>
-						<div class="forca-pernaD invisivel"></div>
+						<div class="forca-base "><img src="imagens/forca.png"></div>
+						<div class="forca-cabeca invisivel"><img src="imagens/forcacabeca.png"></div>
+						<div class="forca-corpo invisivel"><img src="imagens/forcacorpo.png"></div>
+						<div class="forca-bracoD invisivel"><img src="imagens/forcabracod.png"></div>
+						<div class="forca-bracoE invisivel"><img src="imagens/forcabracoe.png"></div>
+						<div class="forca-pernaD invisivel"><img src="imagens/forcapernad.png"></div>
+						<div class="forca-pernaE invisivel"><img src="imagens/forcapernae.png"></div>
 					</div>
 					<div class="jogo__forca-palavra">
+						<div class="jogo__forca-palavra-div">
+							<div class="jogo__forca-letras">A</div>
+							<div class="jogo__forca-letras">L</div>
+							<div class="jogo__forca-letras">L</div>
+							<div class="jogo__forca-letras">A</div>
+							<div class="jogo__forca-letras">N</div>
+							<div class="jogo__forca-letras">N</div>
+							<div class="jogo__forca-letras">N</div>
+							<div class="jogo__forca-letras">A</div>
+							<div class="jogo__forca-letras">A</div>
+							<div class="jogo__forca-letras">A</div>
+							<div class="jogo__forca-letras">A</div>
+							<div class="jogo__forca-letras">A</div>
+							<div class="jogo__forca-letras">A</div>
+							<div class="jogo__forca-letras">A</div>
+							<div class="jogo__forca-letras">A</div>
+							<div class="jogo__forca-letras">A</div>
+							<div class="jogo__forca-letras">A</div>
+							<div class="jogo__forca-letras">A</div>
+						</div>
 					</div>
 				</div>
 				<div class="jogo__letras">
