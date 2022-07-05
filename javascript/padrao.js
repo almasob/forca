@@ -23,7 +23,7 @@ function sortearPalavra(){
 	for(i=0; i<paIn.length; i++){
 		var a = document.createElement("div");
 		var letra = paIn[i];
-		a.textContent = letra;
+		a.textContent = letra.toUpperCase();
 		a.classList.add("jogo__forca-letras");
 		divPalavraSecreta.appendChild(a);
 	}
