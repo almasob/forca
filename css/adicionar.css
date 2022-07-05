@@ -14,12 +14,14 @@
 }
 
 .adicionar__texto-area{
+	box-sizing: border-box;
 	width: 100%;
 	height: 95%;
 	border: none;
 	padding: 0;
 	background-color: #fff4e6;
 	font-size: 1.4rem;
+	padding: .5rem .4rem;
 
 }
 

@@ -10,6 +10,7 @@
 		<link rel="stylesheet" type="text/css" href="css/cabecalho.css">
 		<link rel="stylesheet" type="text/css" href="css/inicial.css">
 		<link rel="stylesheet" type="text/css" href="css/adicionar.css">
+		<link rel="stylesheet" type="text/css" href="css/jogo.css">
 		<link rel="stylesheet" type="text/css" href="css/rodape.css">
 		<link rel="stylesheet" type="text/css" href="css/padrao.css">
 		<title>Jogo da Forca</title>
@@ -26,14 +27,62 @@
 					<button class="inicial__btns-iniciar invisivel">Iniciar Jogo</button>
 				</div>
 			</div>
-			<div class="adicionar">
+			<div class="adicionar invisivel">
 				<div class="adicionar__texto">
-					<textarea class="adicionar__texto-area"></textarea>
+					<textarea class="adicionar__texto-area" placeholder="Digite aqui..." maxlength="25" autofocus></textarea>
 					<p class="adicionar__texto-legenda">*Máximo 25 letras<br>*Acento e maiúsculas/minúsculas nao considerados</p>
 				</div>
 				<div class="adicionar__btns">
 					<button class="adicionar__btns-adicionar sombra-txt-btns">Adicionar palavra</button>
 					<button class="adicionar__btns-voltar sombra-txt-btns">Voltar</button>
+				</div>
+			</div>
+			<div class="jogo">
+				<div class="jogo__forca">
+					<div class="jogo__forca-forca">
+						<div class="forca-base"><img src="imagens/forca.png"></div>
+						<div class="forca-cabeca invisivel"></div>
+						<div class="forca-corpo invisivel"></div>
+						<div class="forca-bracoE invisivel"></div>
+						<div class="forca-bracoD invisivel"></div>
+						<div class="forca-pernaE invisivel"></div>
+						<div class="forca-pernaD invisivel"></div>
+					</div>
+					<div class="jogo__forca-palavra">
+					</div>
+				</div>
+				<div class="jogo__letras">
+					<div class="letras-box">a</div>
+					<div class="letras-box">b</div>
+					<div class="letras-box">c</div>
+					<div class="letras-box">d</div>
+					<div class="letras-box">e</div>
+					<div class="letras-box">f</div>
+					<div class="letras-box">g</div>
+					<div class="letras-box">h</div>
+					<div class="letras-box">i</div>
+					<div class="letras-box">j</div>
+					<div class="letras-box">k</div>
+					<div class="letras-box">l</div>
+					<div class="letras-box">m</div>
+					<div class="letras-box">n</div>
+					<div class="letras-box">o</div>
+					<div class="letras-box">p</div>
+					<div class="letras-box">q</div>
+					<div class="letras-box">r</div>
+					<div class="letras-box">s</div>
+					<div class="letras-box">t</div>
+					<div class="letras-box">u</div>
+					<div class="letras-box">v</div>
+					<div class="letras-box">w</div>
+					<div class="letras-box">x</div>
+					<div class="letras-box">y</div>
+					<div class="letras-box">z</div>
+					<div class="letras-box">ç</div>
+				</div>
+				<div class="jogo__btns">
+					<button class="jogo__btns-novo sombra-txt-btns">Novo jogo</button>
+					<button class="jogo__btns-desistir sombra-txt-btns">Desistir</button>
 				</div>
 			</div>
 		</main>

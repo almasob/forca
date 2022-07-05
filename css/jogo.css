@@ -1,0 +1,100 @@
+.jogo{
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	align-items: center;
+	box-sizing: border-box;
+}
+
+.jogo__forca{
+	background-color: #fff4e6;
+	width: 90%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.jogo__forca-forca{
+	width: 100%;
+	height: 100%;
+}
+
+.forca-base,.forca-cabeca,.forca-corpo,
+.forca-bracoE,.forca-bracoD,
+.forca-pernaE,.forca-pernaD{
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	box-sizing: border-box;
+}
+
+.jogo__forca-forca img{
+	width: 100%;
+	height: 70%;
+	max-width: 450px;
+}
+
+
+
+
+/*------------------------LETRAS-------------------*/
+
+.jogo__letras{
+	padding: .5rem 0;
+	width: 90%;
+	display: flex;
+	flex-wrap: wrap;
+	column-gap: .2rem;
+	row-gap: .2rem;
+	justify-content: center;
+	text-shadow: 1px 1px 1px white;
+
+}
+
+.letras-box{
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 1.5rem;
+	background-color: #00ff00;
+	border-radius: 50px;
+	color: #8a2be2;
+	font-weight: 700;
+	padding: .2rem;
+	width: 7%;
+	border: 1px solid #8a2be2;
+}
+
+
+
+/*------------------------BOTOES-------------------*/
+.jogo__btns{
+	width: 90%;
+	height: 10%;
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: .5rem;
+}
+
+.jogo__btns-novo{
+	background-color: #661aff;
+	border-color: white;
+	border-radius: var(--btn-radius);
+	color: white;
+	font-family: var(--fonte-padrao);
+	font-weight: 700;
+	height: 100%;
+	width: 45%;
+}
+
+.jogo__btns-desistir{
+	background-color: #ff0066;
+	border-color: white;
+	border-radius: var(--btn-radius);
+	color: white;
+	font-family: var(--fonte-padrao);
+	font-weight: 700;
+	height: 100%;
+	width: 45%;
+}
+
+
