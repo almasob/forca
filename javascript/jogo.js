@@ -12,18 +12,21 @@ var letrasApertadas = [];
 
 novoJogo.addEventListener("click",function(){
 	if (palavrasJogo.length > 0){
-		sortearPalavra();
+			sortearPalavra();
+			pintaTecladoVerde();
+			limpaApertadas();
+			erros = 0;
+			acertos = 0;
+			mudarForca();
+			tiraMensagem();
+			colocaTeclado();
 	}else{
 		alert("As palavras acabaram, volte e adicione mais para continuar jogando!");
 		divPalavraSecreta.innerHTML="";
+		tiraTeclado();
+
 	}
-	pintaTecladoVerde();
-	limpaApertadas();
-	erros = 0;
-	acertos = 0;
-	mudarForca();
-	tiraMensagem();
-	colocaTeclado();
+
 	
 
 })

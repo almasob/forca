@@ -5,4 +5,10 @@
 	align-items: center;
 	background-color: var(--bg-rodape);
 	color: white;
+
+}
+
+@media screen and (min-width: 1024px){
+	.rodape{
+		font-weight: 700;}
 }

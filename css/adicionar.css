@@ -56,6 +56,8 @@
 	height: 50%;
 	width: 45%;
 	max-width: 350px;
+	box-shadow: 0px 0px 10px blueviolet ;
+	border-width: 5px;
 }
 
 .adicionar__btns-voltar{
@@ -68,6 +70,8 @@
 	height: 50%;
 	width: 45%;
 	max-width: 350px;
+	box-shadow: 0px 0px 10px blueviolet ;
+	border-width: 5px;
 }
 
 @media screen and (min-width: 768px){
