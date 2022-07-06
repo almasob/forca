@@ -11,8 +11,26 @@ var pernaE = document.querySelector(".forca-pernaE");
 
 var teclado = document.querySelector(".jogo__letras");
 
+var msgPerdeu = document.querySelector(".msg__perdeu");
+var msgGanhou = document.querySelector(".msg__ganhou");
+
+var forca = document.querySelectorAll(".jogo__forca-forca");
+
+function limpaForca(){
+	ficaInvisivel(cabeca);
+	ficaInvisivel(corpo);
+	ficaInvisivel(bracoD);
+	ficaInvisivel(bracoE);
+	ficaInvisivel(pernaD);
+	ficaInvisivel(pernaE);
+}
 
 function mudarForca(){
+	if(erros == 0){
+		limpaForca();
+		tiraInvisivel(base);
+	}
+
 	if(erros == 1){
 		ficaInvisivel(base);
 		tiraInvisivel(cabeca);
@@ -36,7 +54,8 @@ function mudarForca(){
 	if(erros == 6){
 		ficaInvisivel(pernaD);
 		tiraInvisivel(pernaE);
-		msgPerdeu();
+		colocaPerdeu();
+
 
 	}
 
@@ -44,7 +63,30 @@ function mudarForca(){
 }
 
 
-function msgPerdeu(){
+function tiraTeclado(){
+	letrasBox.forEach(function(item){
+	ficaInvisivel(item);
+				});
 
+}
 
+function colocaTeclado(){
+	letrasBox.forEach(function(item){
+		tiraInvisivel(item);
+	});
+}
+
+function colocaPerdeu(){
+	tiraTeclado();
+	tiraInvisivel(msgPerdeu);
+}
+
+function colocaGanhou(){
+	tiraTeclado();
+	tiraInvisivel(msgGanhou);
+}
+
+function tiraMensagem(){
+	ficaInvisivel(msgPerdeu);
+	ficaInvisivel(msgGanhou);
 }

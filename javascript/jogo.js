@@ -19,6 +19,11 @@ novoJogo.addEventListener("click",function(){
 	}
 	pintaTecladoVerde();
 	limpaApertadas();
+	erros = 0;
+	acertos = 0;
+	mudarForca();
+	tiraMensagem();
+	colocaTeclado();
 	
 
 })
@@ -28,6 +33,11 @@ desistir.addEventListener("click",function(){
 	tiraInvisivel(divInicial);
 	pintaTecladoVerde();
 	limpaApertadas();
+	erros = 0;
+	acertos = 0;
+	mudarForca();
+	tiraMensagem();
+	colocaTeclado();
 
 	
 })
@@ -45,6 +55,7 @@ function letraApertada(letra){
 				var letraEscondida = palavraEscondida[i];
 					if(letraEscondida.textContent == letraApertei ){
 						letraEscondida.style.color = "black";
+						letraEscondida.classList.add("jogo__forca-sombra");
 						acertos++;
 						acertou = true;
 					}
@@ -59,10 +70,12 @@ function letraApertada(letra){
 			alert("Letra ja utilizada!")
 		}
 
-	
-
-
 	esteBotao.style.backgroundColor = "red";
+
+		if(acertos == palavraEscondida.length){
+			colocaGanhou();
+		};
+
 }
 
 

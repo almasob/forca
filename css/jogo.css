@@ -15,8 +15,11 @@
 }
 
 .jogo__forca-forca{
+	display: flex;
+	justify-content: center;
 	width: 100%;
 	height: 80%;
+
 }
 
 /*.forca-base,.forca-cabeca,.forca-corpo,
@@ -32,6 +35,7 @@
 	width: 100%;
 	height: 100%;
 	max-width: 450px;
+	max-height: 307px;
 }
 
 .jogo__forca-palavra{
@@ -55,6 +59,11 @@
 	width: 5%;
 	flex-wrap: wrap;
 	color: #fff4e6;
+
+}
+
+.jogo__forca-sombra{
+	text-shadow: 1px 1px 1px var(--sombra-titulo);
 }
 
 
@@ -70,7 +79,9 @@
 	column-gap: .2rem;
 	row-gap: .2rem;
 	justify-content: center;
+	box-sizing: border-box;
 	text-shadow: 1px 1px 1px white;
+
 
 }
 
