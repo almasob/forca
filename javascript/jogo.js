@@ -38,15 +38,22 @@ function letraApertada(letra){
 	var palavraEscondida = document.querySelectorAll(".jogo__forca-letras");
 	var letraApertei = letra.textContent.toUpperCase();
 	var esteBotao = letra;
+	var acertou = false;
 
 		if(!letrasApertadas.includes(letraApertei)){
 			for(i=0; i < palavraEscondida.length; i++){
 				var letraEscondida = palavraEscondida[i];
 					if(letraEscondida.textContent == letraApertei ){
 						letraEscondida.style.color = "black";
+						acertos++;
+						acertou = true;
 					}
 			}
-			letrasApertadas.push(letraApertei)
+				letrasApertadas.push(letraApertei);
+				if(!acertou){
+					erros++;
+					mudarForca();
+				}
 
 		}else{
 			alert("Letra ja utilizada!")
