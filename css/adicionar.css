@@ -11,6 +11,8 @@
 	height: 70%;
 	margin: 0 auto;
 	padding-top: 1rem;
+	display: flex;
+	flex-direction: column;
 }
 
 .adicionar__texto-area{
@@ -22,11 +24,16 @@
 	background-color: #fff4e6;
 	font-size: 1.4rem;
 	padding: .5rem .4rem;
+	max-width: 678px;
+	align-self: center;
+	text-shadow: 1px 1px 3px var(--sombra-titulo);
 
 }
 
 .adicionar__texto-legenda{
 	font-size:.6rem;
+	padding-top: .5rem;
+
 }
 
 .adicionar__btns{
@@ -48,6 +55,7 @@
 	font-weight: 700;
 	height: 50%;
 	width: 45%;
+	max-width: 350px;
 }
 
 .adicionar__btns-voltar{
@@ -59,4 +67,36 @@
 	font-weight: 700;
 	height: 50%;
 	width: 45%;
+	max-width: 350px;
+}
+
+@media screen and (min-width: 768px){
+
+	.adicionar__texto-legenda{
+		align-self: center;
+		font-size: .9rem;
+		display: flex;
+	}
+
+	.adicionar__btns-adicionar,
+	.adicionar__btns-voltar{
+		font-size: 1.4rem;
+	}
+
+	.adicionar__texto-area{
+		font-size: 2rem;
+	}
+
+
+}
+
+@media screen and (min-width: 1024px){
+	.adicionar__btns{
+		justify-content: space-evenly;
+	}
+
+	.adicionar__texto-area{
+		font-size: 2.5rem;
+	}
+
 }

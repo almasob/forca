@@ -12,3 +12,20 @@
 	text-shadow: 5px 1px 5px var(--sombra-titulo);
 }
 
+@media screen and (min-width: 768px){
+	.cabecalho__titulo{
+		font-size: 4rem;
+	}
+}
+
+@media screen and (min-width:  1024px){
+	.cabecalho__titulo{
+		font-size: 5rem;
+	}
+}
+
+@media screen and (min-width:  1400px){
+	.cabecalho__titulo{
+		font-size: 6rem;
+	}
+}
