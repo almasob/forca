@@ -1,9 +1,9 @@
-#Jogo da Forca
+<h1>Jogo da Forca</h1>
 
-Este projeto foi proposto durante o curso Oracle ONE - Alura.
+<p>Este projeto foi proposto durante o curso Oracle ONE - Alura.</p>
 
-Projeto feito em HTML, CSS e JS.
+<p>Projeto feito em HTML, CSS e JS.</p>
 
-Duvidas ou sugestões, pode me contatar, no meu portifólio tem todas as informações necessárias
+<p>Duvidas ou sugestões, pode me contatar, no meu portifólio tem todas as informações necessárias</p>
 
-Obrigado!
+<p>Obrigado!</p>
