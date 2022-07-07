@@ -24,4 +24,4 @@
 	<li>Metodologia DOM</li>
 </ul>
 
-<p>Espero que goste, até mais!</p>
+<h3>Espero que goste, até mais!</h3>
