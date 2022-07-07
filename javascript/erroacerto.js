@@ -79,6 +79,7 @@ function colocaTeclado(){
 function colocaPerdeu(){
 	tiraTeclado();
 	tiraInvisivel(msgPerdeu);
+	mostrarSecreta();
 }
 
 function colocaGanhou(){
@@ -89,4 +90,12 @@ function colocaGanhou(){
 function tiraMensagem(){
 	ficaInvisivel(msgPerdeu);
 	ficaInvisivel(msgGanhou);
+}
+
+function mostrarSecreta(){
+	divPalavraSecreta.style.backgroundColor = "#ff0000";
+}
+
+function esconderSecreta(){
+	divPalavraSecreta.style.backgroundColor = "#fff4e6";
 }

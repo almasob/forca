@@ -20,10 +20,12 @@ novoJogo.addEventListener("click",function(){
 			mudarForca();
 			tiraMensagem();
 			colocaTeclado();
+			esconderSecreta();
 	}else{
 		alert("As palavras acabaram, volte e adicione mais para continuar jogando!");
 		divPalavraSecreta.innerHTML="";
 		tiraTeclado();
+		esconderSecreta();
 
 	}
 
@@ -41,6 +43,7 @@ desistir.addEventListener("click",function(){
 	mudarForca();
 	tiraMensagem();
 	colocaTeclado();
+	esconderSecreta();
 
 	
 })
