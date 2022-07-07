@@ -8,7 +8,7 @@
 <p>Este projeto foi proposto durante o curso da Oracle ONE - Alura.<br>
 	Porém, esta é uma nova versão, feita após um certo tempo de estudo, onde pude adquirir mais conhecimentos e entregar um resultado melhor.</p>
 
-<h2>Funcionalidade</h2>
+<h2>Funcionalidades</h2>
 <ul>
 	<li>A principio você deve adicionar palavras para iniciar o jogo</li>
 	<li>Você pode adiconar palavras próprias, ou as palavras padrão, que são 7</li>
